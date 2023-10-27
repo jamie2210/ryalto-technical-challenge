@@ -27,6 +27,31 @@
 
 /* ------------------------ Content */
 
+.welcome {
+    color: #fdce61;
+    font-weight: 50px;
+    padding: 20px;
+}
+
+.title {
+    max-height: 250px;
+    width: auto;
+    margin: 20px;
+}
+
+.message-cont {
+    background-color: #2F98E8;
+    color: white;
+    height: auto;
+    width: 100%;
+    padding: 20px 50px;
+}
+
+.welcome-message {
+    max-width: 500px;
+    font-weight: 600;
+    font-size: 20px;
+}
 
 /* ------------------------ Footer */
 
