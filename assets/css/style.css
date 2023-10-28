@@ -39,10 +39,6 @@
     border: none !important;
 }
 
-.navbar-toggler:focus {
-    box-shadow: none;
-}
-
 /* ------------------------ Content */
 
 .paper-plane {
@@ -90,8 +86,48 @@
 
 .card {
     max-width: 400px;
+    height: auto;
     padding: 0;
     margin: 20px;
+}
+
+.center-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.card-body {
+    padding: 20px !important;
+}
+
+.card {
+    box-shadow: 0 0 8px 4px rgba(0, 0, 0, 0.2);
+    border: none !important;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.04);
+    cursor: pointer;
+}
+
+.card:active {
+    transform: scale(1);
+}
+
+.profiles {
+    height: 75px;
+    width: auto;
+    padding-bottom: 10px;
+}
+
+.profile-text {
+    margin-bottom: 0;
+    padding-left: 20px;
+    align-content: center;
 }
 
 /* ------------------------ Footer */
