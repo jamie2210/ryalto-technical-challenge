@@ -118,16 +118,36 @@
     transform: scale(1);
 }
 
+.blog-title {
+    color: #2F98E8;
+}
+
+.blog-text {
+    color:rgb(65, 65, 65);
+    opacity: 80%;
+}
+
 .profiles {
     height: 75px;
     width: auto;
     padding-bottom: 10px;
 }
 
-.profile-text {
+.name-text {
     margin-bottom: 0;
-    padding-left: 20px;
     align-content: center;
+    color:rgb(65, 65, 65);
+    padding-top: 10px;
+    opacity: 90%;
+}
+
+.date-text {
+    color: #fdce61;
+    opacity: 90%;
+}
+
+.text-display {
+    display: inline-block;
 }
 
 /* ------------------------ Footer */
@@ -156,17 +176,20 @@ footer ul {
     padding: 0;
 }
 
-.fa-brands {
+.fa-brands,
+.fa-solid {
     font-size: 20px;
     color: white;
     transition: transform 0.3s;
 }
 
-.fa-brands:hover {
+.fa-brands:hover,
+.fa-solid:hover {
     transform: scale(1.1);
 }
 
-.fa-brands:active {
+.fa-brands:active,
+.fa-solid:active {
     transform: scale(1);
 }
 

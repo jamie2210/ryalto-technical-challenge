@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function() {
         if (navbar.classList.contains("expanded")) {
             navbar.style.height = "auto";
         } else {
-            navbar.style.height = ""; // Setting an empty string will remove the height property
+            navbar.style.height = "";
         }
         navbar.classList.toggle("expanded");
     });
