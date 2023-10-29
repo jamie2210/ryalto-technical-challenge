@@ -227,6 +227,14 @@ footer ul {
     float:right;
 }
 
+/* ------------------------ Careers page */
+
+.bars-logo {
+    max-height: 500px;
+    width: auto;
+    float: right;
+}
+
 /* ------------------------ 404 page */
 
 .nav-title {
@@ -273,6 +281,9 @@ footer ul {
 @media (max-width: 962px) {
     .paper-plane {
         left: -20%;
+    }
+    .hidden {
+        display: none;
     }
 }
 
