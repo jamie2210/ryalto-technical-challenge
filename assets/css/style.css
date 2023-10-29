@@ -206,20 +206,17 @@ footer ul {
     padding: 0;
 }
 
-.fa-brands,
-.fa-solid {
+.footer-socials {
     font-size: 30px;
     color: white;
     transition: transform 0.3s;
 }
 
-.fa-brands:hover,
-.fa-solid:hover {
+.footer-socials:hover {
     transform: scale(1.1);
 }
 
-.fa-brands:active,
-.fa-solid:active {
+.footer-socials:active {
     transform: scale(1);
 }
 
@@ -230,6 +227,56 @@ footer ul {
 /* ------------------------ Careers page */
 
 .bars-logo {
+    max-height: 500px;
+    width: auto;
+    float: right;
+}
+
+/* ------------------------ Team page */
+
+.team-card {
+    max-width: 500px;
+    height: auto;
+    margin: 20px;
+}
+
+.lg-profiles {
+    height: 100px;
+    width: auto;
+}
+
+.team-links {
+    font-size: 30px;
+    color: #2F98E8;
+    transition: transform 0.3s;
+}
+
+.team-links:hover {
+    transform: scale(1.1);
+}
+
+.team-links:active {
+    transform: scale(1);
+}
+
+.team-icons {
+    margin: 10px;
+    padding: 0;
+}
+
+.name-text {
+    margin-bottom: 0;
+    align-content: center;
+    color:rgb(65, 65, 65);
+    padding-top: 0;
+    opacity: 90%;
+}
+
+.position-text {
+    color:rgb(65, 65, 65);
+    opacity: 90%;
+}
+.bars-logo2 {
     max-height: 500px;
     width: auto;
     float: right;
@@ -317,5 +364,11 @@ footer ul {
     .title {
         width: 75%;
         height: auto;
+    }
+    .team-card {
+        max-width: 400px;
+    }
+    .bars-logo2 {
+        max-height: 200px;
     }
 }
