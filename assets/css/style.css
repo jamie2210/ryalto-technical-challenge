@@ -39,7 +39,7 @@
     border: none !important;
 }
 
-/* ------------------------ Content */
+/* ------------------------ Index */
 
 .paper-plane {
     height: 100vh;
@@ -84,6 +84,8 @@
     padding: 20px;
 }
 
+/* ---------------------- Blog Cards */
+
 .card {
     max-width: 400px;
     height: auto;
@@ -111,7 +113,6 @@
 
 .card:hover {
     transform: scale(1.04);
-    cursor: pointer;
 }
 
 .card:active {
@@ -120,6 +121,13 @@
 
 .blog-title {
     color: #2F98E8;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.blog-title:hover {
+    text-decoration: underline;
 }
 
 .blog-text {
@@ -150,6 +158,27 @@
     display: inline-block;
 }
 
+.btn-ryalto {
+    border-radius: 6%;
+    background-color: #2F98E8;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    
+}
+
+.btn-ryalto:hover {
+    background-color: white;
+    color:#2F98E8;
+    box-shadow: 0 0 8px 4px rgba(0, 0, 0, 0.1);
+}
+
+.btn-ryalto:active {
+    background-color: #2F98E8;
+    color: white;
+}
+
 /* ------------------------ Footer */
 
 .logo-2 {
@@ -168,6 +197,7 @@ footer a {
     text-decoration: none;
 }
 
+
 footer a:hover {
     text-decoration: underline;
 }
@@ -178,7 +208,7 @@ footer ul {
 
 .fa-brands,
 .fa-solid {
-    font-size: 20px;
+    font-size: 30px;
     color: white;
     transition: transform 0.3s;
 }
@@ -193,11 +223,28 @@ footer ul {
     transform: scale(1);
 }
 
+.social-links {
+    float:right;
+}
+
 /* ------------------------ Media Queries */
 
 @media (max-width: 962px) {
     .paper-plane {
         left: -20%;
+    }
+}
+
+@media (max-width: 768px) {
+    .social-links {
+        float:none;
+        margin-top: 5px;
+    }
+    .footer-links {
+        margin: 0;
+    }
+    .list-inline-item {
+        padding-bottom: 10px;
     }
 }
 
