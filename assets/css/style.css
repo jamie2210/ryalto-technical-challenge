@@ -241,6 +241,7 @@ footer ul {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 20px;
 }
 
 .error-message {
