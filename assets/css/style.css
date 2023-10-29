@@ -282,6 +282,41 @@ footer ul {
     float: right;
 }
 
+/* ------------------------ Blog article page */
+
+.blog-page-title {
+    margin-top: 120px;
+    margin-bottom: 40px;
+    color:#fdce61;
+}
+
+.blog-page-subtitle {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color:#2F98E8;
+}
+
+.blog-page-h3 {
+    color:#fdce61;
+}
+
+.blog-paragraph {
+    color:rgb(65, 65, 65);
+    opacity: 90%;
+    max-width: 900px;
+}
+
+.blog-paragraph a {
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: 500;
+    color:rgb(65, 65, 65);
+    opacity: 90%;
+}
+.blog-paragraph a:hover {
+    text-decoration: underline;
+}
+
 /* ------------------------ 404 page */
 
 .nav-title {
