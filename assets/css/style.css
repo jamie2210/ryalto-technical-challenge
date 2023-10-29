@@ -115,9 +115,9 @@
     transform: scale(1.04);
 }
 
-.card:active {
+/* .card:active {
     transform: scale(1);
-}
+} */
 
 .blog-title {
     color: #2F98E8;
@@ -159,7 +159,7 @@
 }
 
 .btn-ryalto {
-    border-radius: 6%;
+    border-radius: 8%;
     background-color: #2F98E8;
     color: white;
     padding: 10px;
@@ -172,6 +172,7 @@
     background-color: white;
     color:#2F98E8;
     box-shadow: 0 0 8px 4px rgba(0, 0, 0, 0.1);
+    border: 2px solid #2F98E8;
 }
 
 .btn-ryalto:active {
@@ -196,7 +197,6 @@ footer a {
     color: white;
     text-decoration: none;
 }
-
 
 footer a:hover {
     text-decoration: underline;
@@ -225,6 +225,47 @@ footer ul {
 
 .social-links {
     float:right;
+}
+
+/* ------------------------ 404 page */
+
+.nav-title {
+    margin-top: 100px;
+}
+
+.error-cont {
+    color: #2F98E8;
+    margin-bottom: 30px;
+    max-width: 500px;
+    margin: auto;
+    height: 50vh;
+    align-items: center;
+}
+
+.error-message {
+    font-weight: 600;
+}
+
+.btn-404 {
+    border-radius: 6%;
+    background-color: #fdce61;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    
+}
+
+.btn-404:hover {
+    background-color: white;
+    color:#fdce61;
+    box-shadow: 0 0 8px 4px rgba(0, 0, 0, 0.1);
+    border: 2px solid #fdce61;
+}
+
+.btn-ryalto:active {
+    background-color: #2F98E8;
+    color: white;
 }
 
 /* ------------------------ Media Queries */
