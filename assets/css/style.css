@@ -234,14 +234,17 @@ footer ul {
 }
 
 .error-cont {
-    color: #2F98E8;
-    margin-bottom: 30px;
+    margin-bottom: 60px;
     max-width: 500px;
     margin: auto;
+    height: 40vh;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
 }
 
 .error-message {
+    color: #2F98E8;
     font-weight: 600;
 }
 
