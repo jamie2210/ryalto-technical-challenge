@@ -338,9 +338,9 @@ footer ul {
     text-decoration: none;
     cursor: pointer;
     font-weight: 500;
-    color:rgb(65, 65, 65);
-    opacity: 90%;
+    color: #1374be;
 }
+
 .blog-paragraph a:hover {
     text-decoration: underline;
 }
