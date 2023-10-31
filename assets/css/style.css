@@ -158,13 +158,12 @@
 }
 
 .btn-ryalto {
-    border-radius: 8%;
+    border-radius: 5%;
     background-color: #2F98E8;
     color: white;
     padding: 10px;
     text-decoration: none;
-    cursor: pointer;
-    
+    cursor: pointer;   
 }
 
 .btn-ryalto:hover {
@@ -235,6 +234,26 @@ footer ul {
     float: right;
 }
 
+.btn-careers {
+    border-radius: 5%;
+    background-color: #2F98E8;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: transform 0.3s;   
+}
+
+.btn-careers:hover {
+    box-shadow: 0 0 8px 4px rgba(0, 0, 0, 0.1);
+    background-color: #1374be;
+}
+
+.careers-socials {
+    font-size: 20px;
+    color: white;
+}
+
 /* ------------------------ Team page */
 
 .team-card {
@@ -278,11 +297,6 @@ footer ul {
 .position-text {
     color:rgb(65, 65, 65);
     opacity: 90%;
-}
-.bars-logo2 {
-    max-height: 500px;
-    width: auto;
-    float: right;
 }
 
 /* ------------------------ Blog article page */
@@ -434,7 +448,7 @@ footer ul {
     .team-card {
         max-width: 400px;
     }
-    .bars-logo2 {
+    .bars-logo {
         max-height: 200px;
     }
     .welcome-message {
