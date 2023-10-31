@@ -1,4 +1,4 @@
-/* ------------------------ Header */
+/* -------------------------------------- Header */
 
 .navbar {
     height: 80px;
@@ -44,7 +44,7 @@
     box-shadow: none !important;
 }
 
-/* ------------------------ Index */
+/* -------------------------------------- Index */
 
 .paper-plane {
     height: 100vh;
@@ -88,7 +88,7 @@
     padding: 20px;
 }
 
-/* ---------------------- Blog Cards */
+/* -------------------------------------- Blog Cards */
 
 .card {
     max-width: 400px;
@@ -179,7 +179,7 @@
     color: white;
 }
 
-/* ------------------------ Footer */
+/* -------------------------------------- Footer */
 
 .logo-2 {
     height: 100px;
@@ -227,7 +227,7 @@ footer ul {
     float:right;
 }
 
-/* ------------------------ Careers page */
+/* -------------------------------------- Careers page */
 
 .bars-logo {
     max-height: 500px;
@@ -255,7 +255,7 @@ footer ul {
     color: white;
 }
 
-/* ------------------------ Team page */
+/* -------------------------------------- Team page */
 
 .team-card {
     max-width: 500px;
@@ -300,7 +300,7 @@ footer ul {
     opacity: 90%;
 }
 
-/* ------------------------ Blog article page */
+/* -------------------------------------- Blog article page */
 
 .paper-plane2 {
     height: 100vh;
@@ -345,7 +345,7 @@ footer ul {
     text-decoration: underline;
 }
 
-/* ------------------------ 404 page */
+/* -------------------------------------- 404 page */
 
 .nav-title {
     margin-top: 100px;
@@ -386,7 +386,7 @@ footer ul {
     color: white;
 }
 
-/* ------------------------ Media Queries */
+/* -------------------------------------- Media Queries */
 
 @media (max-width: 1142px) {
     .paper-plane2 {
